@@ -1,6 +1,6 @@
 <header>
   <div class="site-width">
-    <h1><a href="index.php">FoodReuseMarket</a></h1>
+    <h1><a href="index.php">rakuzaiko</a></h1>
     <nav id="top-nav">
       <ul>
         <?php
