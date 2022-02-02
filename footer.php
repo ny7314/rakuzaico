@@ -1,5 +1,5 @@
 <footer id="footer">
-  Copyright <a href="#">Yagunori foodDXservice</a>. All Rights Reserved.
+  Copyright <a href="#">Yagunori rakuzaico</a>. All Rights Reserved.
 </footer>
 
 <script src="js/vendor/jquery-2.2.2.min.js"></script>

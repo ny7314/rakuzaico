@@ -205,7 +205,7 @@ function isLogin()
 // DB接続関数
 function dbConnect()
 {
-  $dsn = "mysql:dbname=FoodReuseMarket;host=localhost;charset=utf8";
+  $dsn = "mysql:dbname=rakuzaico;host=localhost;charset=utf8";
   $user = 'root';
   $password = 'root';
   $options = array(
