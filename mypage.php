@@ -48,7 +48,7 @@ require('head.php');
     <section id="main" class="page-mypage">
       <section class="list panel-list">
         <h2 class="title">
-          商品登録一覧
+          在庫登録一覧
         </h2>
         <?php
         if(!empty($productData)):
@@ -110,31 +110,7 @@ require('head.php');
         </table>
       </section>
 
-      <section class="list panel-list">
-        <h2 class="title">
-          お気に入り一覧
-        </h2>
-        <?php
-        if(!empty($likeData)):
-          foreach($likeData as $key => $val):
-        ?>
-        <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : 'p_id='.$val['id']; ?>" class="panel">
-          <div class="panel-head">
-            <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['name']); ?>">
-          </div>
-          <div class="panel-body">
-            <p class="panel-title"><?php echo sanitize($val['name']); ?>
-              <span class="price">
-                ¥<?php echo sanitize(number_format($val['price'])); ?>
-              </span>
-            </p>
-          </div>
-        </a>
-        <?php
-            endforeach;
-          endif;
-        ?>
-      </section>
+      
     </section>
 
     <!-- サイドバー -->

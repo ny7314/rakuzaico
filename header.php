@@ -1,3 +1,7 @@
+<?php
+// DBからユーザーデータを取得
+$dbUsername = getUser($_SESSION['user_id']);
+?>
 <header>
   <div class="site-width">
     <h1><a href="index.php">rakuzaiko</a></h1>
@@ -11,6 +15,7 @@
         <?php
         }else{
         ?>
+        <li><a href="mypage.php"><?php echo $dbUsername['user_name'] ?></a></li>
         <li><a href="mypage.php">マイページ</a></li>
         <li><a href="logout.php">ログアウト</a></li>
         <?php

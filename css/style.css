@@ -100,6 +100,12 @@ nav a:hover {
 #top-nav ul li {
   float: right;
 }
+
+#top-nav .user_name {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
 /*========================================
   レイアウト
 ========================================*/
